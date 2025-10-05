@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Nome da Instituição</title>
-    <link>//localhost:1313/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Nome da Instituição</description>
     <generator>Hugo</generator>
     <language>pt</language>
     <lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Primeira notícia da instituição</title>
-      <link>//localhost:1313/posts/primeira-noticia/</link>
+      <link>/posts/primeira-noticia/</link>
       <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/primeira-noticia/</guid>
+      <guid>/posts/primeira-noticia/</guid>
       <description>&lt;p&gt;Lançámos o nosso novo site! Este é o primeiro de muitos passos para partilhar as nossas atividades, projetos e campanhas.&lt;/p&gt;</description>
     </item>
   </channel>
