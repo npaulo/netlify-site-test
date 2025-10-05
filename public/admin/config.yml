@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+  branch: main  # ou "master", conforme o teu repositório
+  commit_messages:
+    create: "📝 Criar {{collection}} “{{slug}}”"
+    update: "✏️ Atualizar {{collection}} “{{slug}}”"
+    delete: "🗑️ Apagar {{collection}} “{{slug}}”"
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "posts"
+    label: "Notícias"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Data", name: "date", widget: "datetime"}
+      - {label: "Conteúdo", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Páginas"
+    files:
+      - file: "content/quem-somos.md"
+        label: "Quem Somos"
+        name: "quem-somos"
+        fields:
+          - {label: "Título", name: "title", widget: "string"}
+          - {label: "Conteúdo", name: "body", widget: "markdown"}
+      - file: "content/projetos.md"
+        label: "Projetos"
+        name: "projetos"
+        fields:
+          - {label: "Título", name: "title", widget: "string"}
+          - {label: "Conteúdo", name: "body", widget: "markdown"}
+      - file: "content/contacto.md"
+        label: "Contacto"
+        name: "contacto"
+        fields:
+          - {label: "Título", name: "title", widget: "string"}
+          - {label: "Conteúdo", name: "body", widget: "markdown"}

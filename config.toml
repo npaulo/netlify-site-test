@@ -1,0 +1,32 @@
+baseURL = "/"
+languageCode = "pt"
+title = "Nome da Instituição"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  description = "Organização sem fins lucrativos dedicada a causas sociais."
+  author = "Nome da Instituição"
+
+[menu]
+  [[menu.main]]
+    name = "Início"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Quem Somos"
+    url = "/quem-somos/"
+    weight = 2
+  [[menu.main]]
+    name = "Projetos"
+    url = "/projetos/"
+    weight = 3
+  [[menu.main]]
+    name = "Notícias"
+    url = "/posts/"
+    weight = 4
+  [[menu.main]]
+    name = "Contacto"
+    url = "/contacto/"
+    weight = 5
